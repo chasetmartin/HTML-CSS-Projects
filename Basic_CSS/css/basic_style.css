@@ -68,7 +68,7 @@ Hover, Translate, & Transorm Effects
 -------------------------------------*/
 .container .squares:nth-child(-n+4):hover{
     background-image: url("../images/icons/icon_2.png");
-    transform: scale(0.5);
+    transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
@@ -96,10 +96,10 @@ Animation Effect
 -------------------------------------*/
 @keyframes race {
     0%, 100% {
-    tranform: translateY(0px);
+    transform: translateY(0px);
     background-image: url("../images/icons/icon_2.png")
     }
     50% {
-    tranform: translateY(300px);
+    transform: translateY(300px);
     }   
 }

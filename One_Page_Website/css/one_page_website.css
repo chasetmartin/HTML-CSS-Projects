@@ -1,0 +1,109 @@
+/*----------------------------------
+    GENERIC STYLES
+----------------------------------*/
+html {
+    font-family: Garamond;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 14px;
+    margin: 0;
+    font-family: Garamond,'Lucida Sans', Arial, sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Garamond', sans-serif;
+}
+
+h2 {
+    line-height: 50px;
+    color: #450f0f;
+}
+
+h3 {
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+h4{
+    padding-top: 25px;
+    line-height: 40px;
+    padding-bottom: 0px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+p{
+    font-weight: 250;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+/*----------------------------------
+    FORM STYLES
+----------------------------------*/
+
+#contact{
+    background-color: #000;
+    color: #fff;
+}
+
+.reservations h2 {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.3em;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+}
+
+.reservations p {
+    color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reservations form {
+    font-size: 15px;
+    outline: double;
+    font-weight: 600;
+    color: black;
+    padding: 12px 12px;
+    width: 80%;
+    border: 1px solid #808080;
+    margin: 2% auto;
+    border-radius: 7px;
+    background: rgb(227, 222, 222);
+    box-shadow: 2px 3px 3px 0px rgba(0,0,0,.3);
+    font-family: 'Garamond', sans-serif;
+}
+
+.reservations input[type="text"] {
+    font-size: 16px;
+    outline: solid;
+    font-weight: 600;
+    color: #fff;
+    padding: 2% 1% 2% 7%;
+    width: 25%;
+    border-top: 5px solid red;
+    border-right: 5px solid red;
+    border-bottom: 5px solid red;
+    border-left: 5px solid red;
+    margin: 10px 1em;
+    border-radius: 15px;
+    background: #404041;
+    box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
+    font-family: 'Garamond', sans-serif;
+    
+}
+

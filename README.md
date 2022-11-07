@@ -1,8 +1,8 @@
 # HTML CSS Projects
 This is a repository where I will keep the HTML and CSS Projects I complete for the Tech Academy
 ## Projects:
-* [Espresso School website](https://github.com/chasetmartin/Tech_Academy_HTML-CSS-Projects/tree/main/Basic_Website)
-* [Movie Theater website](https://github.com/chasetmartin/Tech_Academy_HTML-CSS-Projects/tree/main/bootstrap4_project)
+* [Espresso School website](https://github.com/chasetmartin/Tech_Academy_HTML-CSS-Projects/tree/main/Espresso_School_Website)
+* [Movie Theater website](https://github.com/chasetmartin/Tech_Academy_HTML-CSS-Projects/tree/main/Movie_Theater_Bootstrap4)
 
 ### Espresso School site
 This page is an example page for a school offering classes on all things related to coffee. It's styled using CSS and contains a navbar, image containers, and a form.

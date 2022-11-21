@@ -259,11 +259,11 @@
 	            </h2>
 	            <p class="rsvp-text">Please provide us with your basic contact information</p>
 	            <div class="form-rsvp">
-	              <form action="" method="post">
-	                <input class="rsvp" type="text" value="" placeholder="First Name">
-	                <input class="rsvp" type="text" value="" placeholder="Last Name">
-	                <input class="rsvp" type="text" value="" placeholder="Email Address">
-	                <input class="rsvp" type="text" value="" placeholder="Phone Number">
+	              <form name = "myForm" action="" method="post" onsubmit="return validateForm()">
+	                <input class="rsvp" type="text" value="" name="fname" placeholder="First Name">
+	                <input class="rsvp" type="text" value="" name="lname" placeholder="Last Name">
+	                <input class="rsvp" type="text" value="" name="email" placeholder="Email Address">
+	                <input class="rsvp" type="text" value="" name="pnumber" placeholder="Phone Number">
 	                <div class="form-spacer">
 	                  <label class="terms">Terms and Conditions</label>
 	                </div>

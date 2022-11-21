@@ -225,3 +225,20 @@
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
+  /* Zoom in and out on a single photo */
+  .zoom-in-out img {
+    animation: zoominout 15s forwards;
+  }
+
+  @keyframes zoominout {
+    0% {
+      transform: scale(1,1);
+    }
+    50% {
+      transform: scale(1.2,1.2);
+    }
+    100% {
+      transform: scale(1,1);
+    }
+  }
